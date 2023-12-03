@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.navigations {
+    padding: 20px;
+    color: #666;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    max-height: 70px;
+    box-shadow: 2px 1px 2px #eee;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.logo {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.br {
+    margin-top: 25px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #387ed1;
+    margin-top: 25px;
+    color: #fff;
+    padding: 12px;
+    border-radius: 4px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0) !important
+}
